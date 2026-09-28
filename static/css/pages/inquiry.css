@@ -2,10 +2,10 @@
 
 /* 헤더·플로팅배너 숨김 (이탈 방지) */
 .dj-checd8,
-.floating-banner { display: none !important; }
+.dj-fb3bc6 { display: none !important; }
 
 /* 닫기 버튼 */
-.ct-close {
+.dj-cc6310 {
     position: fixed;
     top: 24px;
     right: 24px;
@@ -20,7 +20,7 @@
     box-shadow: 0 2px 12px rgba(0,0,0,0.08);
     transition: box-shadow 0.2s ease;
 }
-.ct-close:hover {
+.dj-cc6310:hover {
     box-shadow: 0 4px 16px rgba(0,0,0,0.15);
 }
 
@@ -196,7 +196,7 @@
     gap: 10px;
     flex-wrap: wrap;
 }
-.ct-radio {
+.dj-cr74fb {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -212,13 +212,13 @@
     letter-spacing: -0.025em;
     line-height: var(--lh-1);
 }
-.ct-radio:hover {
+.dj-cr74fb:hover {
     background: #ececec;
 }
-.ct-radio input[type="radio"] {
+.dj-cr74fb input[type="radio"] {
     display: none;
 }
-.ct-radio:has(input:checked) {
+.dj-cr74fb:has(input:checked) {
     background: #111;
     color: #fff;
 }
@@ -236,7 +236,7 @@
     display: flex;
     gap: 20px;
 }
-.ct-file-btn {
+.dj-cfbf6be {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -256,11 +256,11 @@
     transition: border-color 0.2s ease, color 0.2s ease;
     box-sizing: border-box;
 }
-.ct-file-btn:hover {
+.dj-cfbf6be:hover {
     border-color: #4338ca;
     color: #4338ca;
 }
-.ct-file-btn:hover svg path {
+.dj-cfbf6be:hover svg path {
     fill: #4338ca;
     stroke: #4338ca;
 }
@@ -309,7 +309,7 @@
     flex-shrink: 0;
     line-height: var(--lh-1);
 }
-.ct-file-remove {
+.dj-cfr93a4 {
     width: 24px;
     height: 24px;
     border: none;
@@ -322,12 +322,12 @@
     flex-shrink: 0;
     transition: color 0.2s;
 }
-.ct-file-remove:hover {
+.dj-cfr93a4:hover {
     color: #ff0000;
 }
 
 /* 접수 버튼 */
-.ct-submit {
+.dj-cs1853 {
     width: 100%;
     padding: 18px;
     background: #4338ca;
@@ -342,7 +342,7 @@
     line-height: var(--lh-1);
     transition: background 0.2s ease;
 }
-.ct-submit:hover {
+.dj-cs1853:hover {
     background: #3730a3;
 }
 
@@ -371,13 +371,13 @@
     .dj-cfrd59b .dj-cfddfd { margin-bottom: 30px; }
     .dj-cfl6657 { font-size: 14px; line-height: var(--lh-1); padding-bottom: 12px; }
     .dj-cfr5651 { flex-wrap: wrap; }
-    .ct-radio { padding: 12px 20px; font-size: 13px; line-height: var(--lh-1); }
-    .ct-submit { font-size: 16px; line-height: var(--lh-1); padding: 16px; margin-top: 30px; }
+    .dj-cr74fb { padding: 12px 20px; font-size: 13px; line-height: var(--lh-1); }
+    .dj-cs1853 { font-size: 16px; line-height: var(--lh-1); padding: 16px; margin-top: 30px; }
     .dj-ciif784 { width: 44px; height: 44px; }
     .dj-ciif784 svg { width: 44px; height: 44px; }
     .dj-cilbeaf { font-size: 14px; line-height: var(--lh-1); }
     .dj-civa165 { font-size: 16px; line-height: var(--lh-1); }
-    .ct-close { top: 16px; right: 16px; width: 40px; height: 40px; }
+    .dj-cc6310 { top: 16px; right: 16px; width: 40px; height: 40px; }
 }
 
 /* ct-privacy: 개인정보 수집·이용 동의 (2026-07-28 점검 — 동의 절차 없이 개인정보를 받고 있던 것 보완) */

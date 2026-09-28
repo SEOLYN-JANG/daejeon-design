@@ -13,14 +13,14 @@
 
     var childSelectors = [
         '.service-item', '.fsc-box',
-        '.stat-item',
-        '.portfolio-card',
-        '.news-card',
+        '.dj-sid6d8',
+        '.dj-pc7b84',
+        '.dj-nc28d4',
         '.dj-pcc7eb', '.rv-card', '.rv-text-card',
         '.col-card', '.nt-row',
         '.about-board-col',
         '.dj-cfrd59b', '.dj-cl110d', '.dj-cr708d',
-        '.difference-block', '.faq-item'
+        '.dj-db2255', '.dj-fi0fbf'
     ];
     var children = document.querySelectorAll(childSelectors.join(','));
     children.forEach(function(el) {
@@ -165,7 +165,7 @@ document.addEventListener('DOMContentLoaded', function () {
     if (scrollContainer) {
         /* 모바일: 2번째 카드를 초기 중앙에 배치 */
         if (window.innerWidth <= 767) {
-            var secondCard = scrollContainer.querySelectorAll('.news-card')[1];
+            var secondCard = scrollContainer.querySelectorAll('.dj-nc28d4')[1];
             if (secondCard) {
                 var cardCenter = secondCard.offsetLeft - (scrollContainer.offsetWidth - secondCard.offsetWidth) / 2;
                 scrollContainer.scrollLeft = cardCenter;

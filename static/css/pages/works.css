@@ -22,7 +22,7 @@
     gap: 30px;
     margin-top: 80px;
 }
-.pf-filter-btn {
+.dj-pfba30a {
     padding: 0 0 10px;
     border: none;
     border-bottom: 2px solid transparent;
@@ -35,8 +35,8 @@
     cursor: pointer;
     transition: color 0.2s ease;
 }
-.pf-filter-btn.active,
-.pf-filter-btn:hover {
+.dj-pfba30a.active,
+.dj-pfba30a:hover {
     color: #4338ca;
     border-bottom-color: #4338ca;
 }
@@ -52,7 +52,7 @@
     display: flex;
     flex-direction: column;
 }
-.pf-card-thumb {
+.dj-pct60e2 {
     position: relative;
     aspect-ratio: 413 / 280;
     border-radius: 7px;
@@ -60,7 +60,7 @@
     cursor: pointer;
     margin: 0;
 }
-.pf-card-thumb img {
+.dj-pct60e2 img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -68,7 +68,7 @@
     display: block;
     transition: transform 0.4s ease;
 }
-.pf-card-thumb:hover img {
+.dj-pct60e2:hover img {
     transform: scale(1.06);
 }
 .dj-pcn289f {
@@ -96,7 +96,7 @@
     margin: 56px 0 0;
     flex-wrap: wrap;
 }
-.pf-page-btn {
+.dj-ppbca5e {
     min-width: 44px;
     height: 44px;
     padding: 0 14px;
@@ -110,16 +110,16 @@
     cursor: pointer;
     transition: all .2s ease;
 }
-.pf-page-btn:hover {
+.dj-ppbca5e:hover {
     border-color: #4338ca;
     color: #4338ca;
 }
-.pf-page-btn.active {
+.dj-ppbca5e.active {
     background: #4338ca;
     border-color: #4338ca;
     color: #fff;
 }
-.pf-page-btn.disabled {
+.dj-ppbca5e.disabled {
     opacity: .35;
     cursor: default;
     pointer-events: none;
@@ -183,7 +183,7 @@
     .dj-pptc3c1 { font-size: 24px; letter-spacing: -0.025em; }
     .dj-pfa4b9 { flex-wrap: wrap; margin-top: 30px; gap: 16px; }
     .dj-pg5097 { grid-template-columns: 1fr; gap: 40px; margin-top: 30px; }
-    .pf-filter-btn { font-size: 14px; padding: 0 0 8px; }
+    .dj-pfba30a { font-size: 14px; padding: 0 0 8px; }
     .dj-pcn289f { font-size: 16px; margin: 12px 0 4px; }
     .dj-pct91d4 { font-size: 13px; }
     .dj-pmcaf3e { width: 95%; }
