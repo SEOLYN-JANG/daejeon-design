@@ -17,8 +17,8 @@
   --color-text: #111111;           /* rgb(17, 17, 17) — 본문/헤딩 */
   --color-text-light: #767676;     /* rgb(118, 118, 118) — 보조 텍스트 */
   --color-text-muted: rgba(17, 17, 17, 0.698); /* h3 서브텍스트 */
-  --color-bg: #dj-f17af;
-  --color-bg-light: #dj-f75c4;      /* rgb(246, 246, 246) — 섹션 배경 */
+  --color-bg: #ffffff;
+  --color-bg-light: #f6f6f6;      /* rgb(246, 246, 246) — 섹션 배경 */
   --color-black: #111111;
 
   /* Typography — DevTools computed style */
@@ -121,8 +121,8 @@ button { font: inherit; cursor: pointer; border: none; background: none; }
 /* Top bar */
 .dj-tb4215 {
     height: 38px;
-    background-color: #dj-f17af;
-    border-bottom: 1px solid #dj-ddcab;
+    background-color: #ffffff;
+    border-bottom: 1px solid #d6d6d6;
     font-family: sans-serif;
 }
 
@@ -167,8 +167,8 @@ button { font: inherit; cursor: pointer; border: none; background: none; }
 
 .dj-tb7ac2 {
     height: 20px;
-    background-color: #dj-f75c4;
-    border: 0.5px solid #dj-ddcab;
+    background-color: #f6f6f6;
+    border: 0.5px solid #d6d6d6;
     border-radius: 3.5px;
     display: inline-flex;
     align-items: center;
@@ -203,8 +203,8 @@ button { font: inherit; cursor: pointer; border: none; background: none; }
 
 .payment-link {
     height: 20px;
-    background-color: #dj-f75c4;
-    border: 0.5px solid #dj-ddcab;
+    background-color: #f6f6f6;
+    border: 0.5px solid #d6d6d6;
     border-radius: 3.5px;
     display: inline-flex;
     align-items: center;
@@ -220,7 +220,7 @@ button { font: inherit; cursor: pointer; border: none; background: none; }
 }
 
 .payment-link:hover {
-    background-color: #dj-e7a3e;
+    background-color: #e8e8e8;
     color: #5a5a5a;
 }
 
@@ -242,7 +242,7 @@ button { font: inherit; cursor: pointer; border: none; background: none; }
 /* Bottom bar */
 .dj-bb0559 {
     height: 84px;
-    background-color: #dj-f17af;
+    background-color: #ffffff;
     box-shadow: 0px 8px 24px rgba(176, 128, 112, 0.1);
 }
 
@@ -292,7 +292,7 @@ button { font: inherit; cursor: pointer; border: none; background: none; }
 }
 
 .dj-nm1d91 a:hover {
-    color: #dj-ba79b;
+    color: #bababa;
 }
 
 /* 현재 페이지 메뉴 강조 — 메뉴바 하단 주황색 선 */
@@ -323,7 +323,7 @@ button { font: inherit; cursor: pointer; border: none; background: none; }
     width: 12px;
     height: 12px;
     background-color: #3730a3;
-    color: #dj-f17af;
+    color: #ffffff;
     font-size: 7px;
     font-weight: 600;
     line-height: 1;
@@ -351,7 +351,7 @@ button { font: inherit; cursor: pointer; border: none; background: none; }
 .contact-btn:hover { filter: brightness(0.92); }
 
 .contact-btn span {
-    color: #dj-f17af;
+    color: #ffffff;
 }
 
 .contact-btn img {
@@ -607,7 +607,7 @@ button { font: inherit; cursor: pointer; border: none; background: none; }
 .notice-item {
     display: flex;
     align-items: center;
-    background: #dj-f75c4;
+    background: #f6f6f6;
     border-radius: 7px;
     height: 88px;
     padding: 22px 40px;
@@ -933,7 +933,7 @@ button { font: inherit; cursor: pointer; border: none; background: none; }
     padding: 0 24px;
     height: 60px;
     flex-shrink: 0;
-    border-bottom: 1px solid #dj-f75cf;
+    border-bottom: 1px solid #f0f0f0;
 }
 .dj-mmle9ac img {
     width: 100px;
@@ -966,7 +966,7 @@ button { font: inherit; cursor: pointer; border: none; background: none; }
     padding: 14px 0;
     letter-spacing: -0.025em;
     transition: color 0.2s;
-    border-bottom: 1px solid #dj-f4bd5;
+    border-bottom: 1px solid #f5f5f5;
 }
 .dj-mmnb698 a:last-child {
     border-bottom: none;
@@ -980,7 +980,7 @@ button { font: inherit; cursor: pointer; border: none; background: none; }
 .dj-mmf233a {
     padding: 24px;
     flex-shrink: 0;
-    border-top: 1px solid #dj-f75cf;
+    border-top: 1px solid #f0f0f0;
 }
 .mobile-menu-cta {
     display: block;

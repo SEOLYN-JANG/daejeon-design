@@ -147,7 +147,7 @@
     color: #767676;
 }
 .dj-cr02ff {
-    color: #dj-f7c37;
+    color: #ff0000;
 }
 .dj-cfddfd input[type="text"],
 .dj-cfddfd input[type="tel"],
@@ -162,7 +162,7 @@
     font-size: 14px;
     font-family: inherit;
     color: #767676;
-    background: #dj-f75c4;
+    background: #f6f6f6;
     outline: none;
     height: 47px;
     letter-spacing: -0.025em;
@@ -206,14 +206,14 @@
     font-weight: 400;
     padding: 14px 39px;
     border-radius: 100px;
-    background: #dj-f75c4;
+    background: #f6f6f6;
     transition: all 0.3s;
     text-align: center;
     letter-spacing: -0.025em;
     line-height: var(--lh-1);
 }
 .ct-radio:hover {
-    background: #dj-e4641;
+    background: #ececec;
 }
 .ct-radio input[type="radio"] {
     display: none;
@@ -252,7 +252,7 @@
     text-align: center;
     line-height: var(--lh-1);
     cursor: pointer;
-    background: #dj-f75c4;
+    background: #f6f6f6;
     transition: border-color 0.2s ease, color 0.2s ease;
     box-sizing: border-box;
 }
@@ -290,7 +290,7 @@
     align-items: center;
     gap: 10px;
     padding: 10px 14px;
-    background: #dj-f75c4;
+    background: #f6f6f6;
     border-radius: 7px;
     font-size: 14px;
     color: #333;
@@ -323,7 +323,7 @@
     transition: color 0.2s;
 }
 .ct-file-remove:hover {
-    color: #dj-f7c37;
+    color: #ff0000;
 }
 
 /* 접수 버튼 */
@@ -381,7 +381,7 @@
 }
 
 /* ct-privacy: 개인정보 수집·이용 동의 (2026-07-28 점검 — 동의 절차 없이 개인정보를 받고 있던 것 보완) */
-.ct-privacy { margin-top: 34px; padding: 20px 22px; background: #dj-fc22f; border: 1px solid #dj-e8aea; border-radius: 12px; }
+.ct-privacy { margin-top: 34px; padding: 20px 22px; background: #f8f8fd; border: 1px solid #e9e8f2; border-radius: 12px; }
 .dj-cpccde3 { display: flex; align-items: flex-start; gap: 10px; cursor: pointer; font-size: 15px; color: #333; line-height: 1.5; }
 .dj-cpccde3 input { width: 20px; height: 20px; margin: 0; flex: none; accent-color: #4338ca; cursor: pointer; }
 .dj-cpccde3 b { color: #4338ca; font-weight: 700; }

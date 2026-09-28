@@ -5,7 +5,7 @@
 .dj-sl939d {
     font-size: 24px;
     font-weight: 700;
-    color: #dj-ddcab;
+    color: #d6d6d6;
     letter-spacing: -0.025em;
     line-height: var(--lh-1);
 }
@@ -87,7 +87,7 @@
     width: 151px;
     height: 50px;
     background: #4338ca;
-    color: #dj-f17af;
+    color: #ffffff;
     border-radius: 99px;
     text-decoration: none;
     font-size: 18px;
@@ -135,7 +135,7 @@
 .dj-pbw6e1d {
     width: 268px;
     height: 2px;
-    background-color: #dj-ddcab;
+    background-color: #d6d6d6;
     position: relative;
 }
 .dj-pb820a {
@@ -173,7 +173,7 @@
     max-width: 1280px;
     margin: 0 auto;
     border-radius: 100px;
-    background: #dj-f75c4;
+    background: #f6f6f6;
     height: 86px;
 }
 .dj-isad92 .dj-fi6a21 {
@@ -335,7 +335,7 @@
     overflow: hidden;
 }
 .dj-ps6560 .dj-sl939d {
-    color: #dj-ddcab;
+    color: #d6d6d6;
 }
 .dj-pib561 {
     max-width: 1280px;
@@ -809,7 +809,7 @@
 /* ========== 섹션 10: 진행 과정 ========== */
 .dj-pscf5f {
     padding: 160px 0;
-    background: #dj-f17af url('../../ui/process-bg.png') center / cover no-repeat;
+    background: #ffffff url('../../ui/process-bg.png') center / cover no-repeat;
 }
 .dj-pscf5f .dj-sl939d {
     color: #767676;
@@ -947,7 +947,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #dj-f75c4;
+    background: #f6f6f6;
     border-radius: 99px;
     height: 84px;
     padding: 0 40px;
@@ -968,7 +968,7 @@
     justify-content: center;
     width: 95px;
     height: 46px;
-    background: #dj-f17af;
+    background: #ffffff;
     color: #111;
     border: 1px solid rgba(118, 118, 118, 0.4);
     border-radius: 99px;

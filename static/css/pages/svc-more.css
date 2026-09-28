@@ -3,7 +3,7 @@
 .dj-ss9e38 .dj-sta08c{font-size:12.5px;letter-spacing:.25em;font-weight:700;color:#4338ca;margin:0 0 12px}
 .ss-t{font-size:clamp(27px,3.6vw,40px);font-weight:800;letter-spacing:-.03em;color:#111;margin:0 0 26px}
 /* 소개 글: 좌 번호+제목 / 우 본문 가로 스플릿, 상하 스택 (haoc 2열 병렬과 다른 레이아웃) */
-.ss-item{display:grid;grid-template-columns:380px 1fr;gap:24px 56px;padding:38px 0;border-top:1px solid #dj-e94a4}
+.ss-item{display:grid;grid-template-columns:380px 1fr;gap:24px 56px;padding:38px 0;border-top:1px solid #e6eceb}
 .ss-item:first-of-type{border-top:2px solid #111}
 .dj-sn2ad9{display:block;font-family:'Montserrat','Pretendard',sans-serif;font-size:14px;font-weight:800;color:#4338ca;letter-spacing:.1em;margin-bottom:10px}
 .ss-item h3{font-size:23px;font-weight:800;letter-spacing:-0.02em;color:#111;line-height:1.4;margin:0;word-break:keep-all}
