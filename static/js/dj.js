@@ -75,7 +75,7 @@
 
 // ========== 플로팅 배너 ==========
 (function() {
-    const banner = document.getElementById('dj-fd5d7');
+    const banner = document.getElementById('floatingBanner');
     if (!banner) return;
 
     window.addEventListener('scroll', function() {
@@ -160,7 +160,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     /* ========== 뉴스 캐러셀 드래그 + 프로그레스 ========== */
     var scrollContainer = document.getElementById('scrollContainer');
-    var newsProgressBar = document.getElementById('dj-sd96f');
+    var newsProgressBar = document.getElementById('scrollProgressBar');
 
     if (scrollContainer) {
         /* 모바일: 2번째 카드를 초기 중앙에 배치 */
