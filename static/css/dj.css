@@ -379,6 +379,7 @@ body{color:#111}
 .kpi+.kpi .dj-kb4c7b{left:28px}
 .kpi:last-child .dj-kb4c7b{right:0}
 .kpi.run .dj-kb4c7b{transform:scaleX(1)}
+.kpi.reset,.kpi.reset .dj-kb4c7b,.kpi.reset .dj-kn6ca3 i{transition:none !important}
 /* 고객사 로고 스트립 */
 .dj-hc73ac{padding:0 0 110px}
 .dj-cr066a{display:flex;justify-content:space-between;align-items:center;gap:24px;border-top:1px solid #111;padding:22px 0 8px;margin-bottom:8px}

@@ -142,25 +142,44 @@
 </div></section>
 <script>
 (function () {
+    // count-up replays every time the section scrolls back into view (reset when it fully leaves the viewport)
     var nums = document.querySelectorAll('.dj-kn6ca3');
-    if (!nums.length || !('IntersectionObserver' in window)) { nums.forEach(function (el) { el.firstChild.textContent = Number(el.getAttribute('data-to')).toLocaleString('ko-KR'); el.parentNode.classList.add('done'); }); return; }
-    function run(el, i) {
-        var to = Number(el.getAttribute('data-to')), dur = 1500, start = null;
-        setTimeout(function () {
-            function step(ts) {
-                if (start === null) start = ts;
-                var p = Math.min(1, (ts - start) / dur), e = 1 - Math.pow(1 - p, 3);
-                el.firstChild.textContent = Math.round(to * e).toLocaleString('ko-KR');
-                if (p < 1) requestAnimationFrame(step); else el.parentNode.classList.add('done');
-            }
-            el.parentNode.classList.add('run');
-            requestAnimationFrame(step);
-        }, i * 160);
+    if (!nums.length) return;
+    var items = [], gen = 0, played = false;
+    nums.forEach(function (el) { items.push({ el: el, li: el.parentNode, to: Number(el.getAttribute('data-to')) }); });
+    function fmt(n) { return n.toLocaleString('ko-KR'); }
+    function reset() {
+        gen++; played = false;
+        items.forEach(function (it) { it.li.classList.add('reset'); it.li.classList.remove('run', 'done'); it.el.firstChild.textContent = '0'; });
+        void nums[0].offsetWidth;
+        items.forEach(function (it) { it.li.classList.remove('reset'); });
     }
+    function play() {
+        var g = ++gen; played = true;
+        items.forEach(function (it, i) {
+            setTimeout(function () {
+                if (g !== gen) return;
+                it.li.classList.add('run');
+                var start = null, dur = 1500;
+                function step(ts) {
+                    if (g !== gen) return;
+                    if (start === null) start = ts;
+                    var p = Math.min(1, (ts - start) / dur), e = 1 - Math.pow(1 - p, 3);
+                    it.el.firstChild.textContent = fmt(Math.round(it.to * e));
+                    if (p < 1) requestAnimationFrame(step); else it.li.classList.add('done');
+                }
+                requestAnimationFrame(step);
+            }, i * 160);
+        });
+    }
+    if (!('IntersectionObserver' in window)) { items.forEach(function (it) { it.el.firstChild.textContent = fmt(it.to); it.li.classList.add('run', 'done'); }); return; }
     var sec = nums[0].closest('section');
     var io = new IntersectionObserver(function (entries) {
-        entries.forEach(function (en) { if (en.isIntersecting) { nums.forEach(run); io.disconnect(); } });
-    }, { threshold: 0.35 });
+        entries.forEach(function (en) {
+            if (en.isIntersecting && en.intersectionRatio >= 0.3) { if (!played) play(); }
+            else if (!en.isIntersecting && played) { reset(); }
+        });
+    }, { threshold: [0, 0.3] });
     io.observe(sec);
 })();
 </script>
