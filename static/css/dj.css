@@ -380,11 +380,23 @@ body{color:#111}
 .kpi:last-child .dj-kb4c7b{right:0}
 .kpi.run .dj-kb4c7b{transform:scaleX(1)}
 .kpi.reset,.kpi.reset .dj-kb4c7b,.kpi.reset .dj-kn6ca3 i{transition:none !important}
-/* 고객사 로고 스트립 */
-.dj-hc73ac{padding:0 0 110px}
-.dj-cr066a{display:flex;justify-content:space-between;align-items:center;gap:24px;border-top:1px solid #111;padding:22px 0 8px;margin-bottom:8px}
-.dj-ct8cd2{font-size:12.5px;font-weight:800;letter-spacing:.12em;color:#767676;margin:0}
-.dj-hc73ac img{width:100%;height:auto}
+/* 고객사 로고 3줄 롤링 (본사 dfirst.co.kr 파트너 섹션과 동일 구성) */
+.dj-hc73ac{padding:24px 0 110px}
+.dj-ce26ce{text-align:center;font-size:12.5px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;color:#767676;margin:0 0 12px}
+.dj-cta256{text-align:center;font-size:22px;font-weight:800;letter-spacing:-.02em;color:#111;margin:0 0 36px;word-break:keep-all}
+.dj-cta256 b{color:#4338CA}
+.dj-cr2cda{display:flex;flex-direction:column;gap:14px}
+.mq{overflow:hidden;position:relative;-webkit-mask-image:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent);mask-image:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent)}
+.dj-mt88b8{display:flex;width:max-content;animation:mqLeft 60s linear infinite}
+.dj-mr9c06 .dj-mt88b8{animation-name:mqRight}
+.mq:hover .dj-mt88b8{animation-play-state:paused}
+@keyframes mqLeft{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+@keyframes mqRight{from{transform:translateX(-50%)}to{transform:translateX(0)}}
+@media (prefers-reduced-motion:reduce){.dj-mt88b8{animation:none}}
+.dj-cm0645 .dj-mic872{display:flex;align-items:center;justify-content:center;width:158px;height:92px;margin-right:14px;background:#fff;border:1px solid #E6E6F0;border-radius:14px;transition:border-color .25s,box-shadow .25s}
+.dj-cm0645 .dj-mic872:hover{border-color:#C7C4FF;box-shadow:0 10px 26px rgba(67,56,202,.10)}
+.dj-cm0645 .dj-mic872 img{max-width:124px;max-height:46px;width:auto;height:auto;object-fit:contain;filter:grayscale(1);opacity:.6;transition:filter .3s,opacity .3s}
+.dj-cm0645 .dj-mic872:hover img{filter:none;opacity:1}
 
 /* ===== 메인: 업종별 가이드 (행 리스트) ===== */
 .dj-hi7f98{padding:0 0 110px}
@@ -785,6 +797,10 @@ body{color:#111}
 .dj-hd3574,.dj-hs84f3,.dj-hc73ac,.dj-hi7f98,.dj-hwdbd7,.dj-hpda2a,.dj-hscff8,.dj-hf8c9b,.dj-hk209b,.dj-hb6b7b,.dj-aw3926,.dj-ap9422,.dj-arc7c2,.dj-at89f1,.dj-ac4e28,.dj-avd4a3,.dj-sw3785,.dj-sw0f1e,.dj-si49fb,.dj-sgf040,.dj-ssd287,.dj-sf5ae6,.dj-sr0478,.dj-cfse434,.dj-cv00dd,.dj-cl692d,.dj-pa152e{padding-bottom:64px}
 .dj-hd3574{padding-top:8px}
 .dj-hdt2510{font-size:26px}
+.dj-cta256{font-size:17px;margin-bottom:24px}
+.dj-cr2cda{gap:10px}
+.dj-cm0645 .dj-mic872{width:126px;height:72px;margin-right:10px;border-radius:10px}
+.dj-cm0645 .dj-mic872 img{max-width:96px;max-height:36px}
 .kpi{padding:22px 16px 26px 0}
 .kpi+.kpi{padding-left:16px}
 .kpi .dj-kb4c7b{right:16px}
