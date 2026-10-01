@@ -1358,3 +1358,9 @@ body{color:#111}
 .dj-cs84e1{opacity:1}
 .dj-ctie49c,.dj-cid323 svg,.dj-ct57b5{animation:none}
 }
+
+/* 회사소개: 성공적인 가치 아래 포트폴리오 2줄 롤링 (메인 Our Work 스타일 재사용) */
+.dj-cpbd5c{padding:0 0 clamp(40px,10vw,120px);overflow:hidden}
+.dj-cpbd5c .dj-oh873b{margin-bottom:clamp(24px,4vw,44px)}
+.dj-cvb1981{cursor:pointer}
+@media(max-width:767px){.dj-cpbd5c{padding-bottom:56px}}
