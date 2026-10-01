@@ -16,7 +16,7 @@
         '.dj-sid6d8',
         '.dj-pc7b84',
         '.dj-nc28d4',
-        '.dj-pcc7eb', '.rv-card', '.rv-text-card',
+        '.dj-pcc7eb', '.dj-rcee2c', '.rv-text-card',
         '.col-card', '.nt-row',
         '.about-board-col',
         '.dj-cfrd59b', '.dj-cl110d', '.dj-cr708d',
