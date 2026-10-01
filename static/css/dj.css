@@ -1278,10 +1278,10 @@ body{color:#111}
 .dj-ci313a li:nth-child(odd){background:#010001}
 .dj-ci313a li:nth-child(even){background:#111}
 .dj-ci313a p{margin:0}
-.dj-cid323{position:relative;display:flex;align-items:center;justify-content:center;width:140px;height:140px}
+.dj-cid323{position:relative;display:flex;align-items:center;justify-content:center;width:156px;height:156px}
 .dj-cf6365{position:absolute;inset:0;width:100%;height:100%;fill:none;stroke:#fff;stroke-width:1;overflow:visible}
 .dj-cf6365 *{vector-effect:non-scaling-stroke}
-.dj-cis36c7{position:relative;width:41px;height:41px;fill:none;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;overflow:visible}
+.dj-cis36c7{position:relative;width:66px;height:66px;fill:none;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;overflow:visible}
 .dj-ci313a li:nth-child(3n+1) .dj-cis36c7{animation:cpRotate 3s infinite ease-in-out}
 .dj-ci313a li:nth-child(3n+2) .dj-cis36c7{animation:cpBob 2.5s infinite ease-in-out}
 .dj-ci313a li:nth-child(3n) .dj-cis36c7{animation:cpPulse 1.5s infinite}
@@ -1322,8 +1322,8 @@ body{color:#111}
 .dj-ct57b5:hover p{background-image:linear-gradient(92deg,#4338CA,#FFB020)}
 @keyframes cpMarquee{to{transform:translateX(-50%)}}
 @media(max-width:1100px){
-.dj-cid323{width:110px;height:110px}
-.dj-cis36c7{width:30px;height:30px}
+.dj-cid323{width:124px;height:124px}
+.dj-cis36c7{width:52px;height:52px}
 .dj-ci313a li{font-size:clamp(16px,2.6vw,30px)}
 .dj-ct57b5 p{background-image:linear-gradient(92deg,#4338CA,#FFB020)}
 }
@@ -1338,14 +1338,14 @@ body{color:#111}
 .dj-ci313a{display:grid;grid-template-columns:1fr 1fr}
 .dj-ci313a li{height:auto;min-height:0;padding:40px 10px 36px;gap:26px;font-size:19px}
 .dj-ci313a li:last-child{grid-column:1/-1}
-.dj-cid323{width:96px;height:96px}
-.dj-cis36c7{width:28px;height:28px}
+.dj-cid323{width:104px;height:104px}
+.dj-cis36c7{width:44px;height:44px}
 .dj-cvi065f{width:44px;height:44px}
 }
 @media(max-width:489px){
 .dj-ci313a li{padding:32px 8px 28px;gap:20px;font-size:17px}
-.dj-cid323{width:84px;height:84px}
-.dj-cis36c7{width:24px;height:24px}
+.dj-cid323{width:90px;height:90px}
+.dj-cis36c7{width:38px;height:38px}
 }
 @media(prefers-reduced-motion:reduce){
 .dj-caedf0,.dj-ct6881 span,.dj-ca32bf{opacity:1;transform:none;transition:none}
