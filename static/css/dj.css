@@ -1305,3 +1305,85 @@ body{color:#111}
 .dj-ss832e{grid-template-columns:1fr;gap:10px}
 .dj-sqf7a9{font-size:16px}
 }
+
+
+/* ===== 서비스 페이지 상단 훅 (상세페이지 도입부: 품질 편차 → 4가지 체크 → 모두 합니다 → 그 이유는 → 01 통합 운영 → Design/Print/Marketing) ===== */
+.hk{background:#fff}
+.dj-hs0c13,.dj-hw54b8,.dj-hoe7a6{position:relative;overflow:hidden;background:#0F1014;color:#fff;display:flex;align-items:center}
+.dj-hs0c13{min-height:520px}
+.dj-hw54b8{min-height:360px}
+.dj-hoe7a6{min-height:420px}
+.dj-hs0c13 img,.dj-hw54b8 img,.dj-hoe7a6 img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.6}
+.dj-hs0c13::after,.dj-hw54b8::after,.dj-hoe7a6::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(10,10,18,.9) 0%,rgba(10,10,18,.62) 50%,rgba(10,10,18,.3) 100%)}
+.dj-hi580f{position:relative;z-index:1;flex:1 1 auto;min-width:0;padding-top:64px;padding-bottom:64px}
+.dj-hd22f1{display:flex;gap:6px;margin-bottom:24px}
+.dj-hd22f1 i{width:8px;height:8px;border-radius:50%;background:#C7C4FF}
+.dj-hs0c13 h2{font-size:46px;font-weight:800;line-height:1.25;letter-spacing:-.03em;margin:0;word-break:keep-all}
+.dj-hrc370{display:block;width:48px;height:2px;background:#FFB020;margin:30px 0}
+.dj-ha195f{font-size:34px;font-weight:800;letter-spacing:-.02em;margin:0}
+.dj-ha195f em{font-style:normal;color:#FFB020}
+.dj-hc4e7a{padding:72px 32px 48px}
+.dj-hch8eff{font-size:24px;font-weight:800;letter-spacing:-.02em;margin:0 0 22px;word-break:keep-all}
+.dj-hch8eff em{font-style:normal;color:#4338CA}
+.dj-hcl4ca5{display:grid;gap:10px}
+.dj-hcd4cb{display:flex;align-items:center;gap:14px;background:#F8F8FD;border:1px solid #ECECF5;border-radius:14px;padding:18px 22px;font-size:17px;font-weight:700;color:#111;word-break:keep-all}
+.dj-hcd4cb i,.dj-hae379 i,.dj-hsb6b7 i{flex:0 0 26px;width:26px;height:26px;border-radius:50%;background:#4338CA;color:#fff;display:inline-flex;align-items:center;justify-content:center;font-style:normal}
+.dj-hcd4cb i svg,.dj-hae379 i svg,.dj-hsb6b7 i svg{width:13px;height:13px;fill:none;stroke:currentColor;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+.dj-hae379{background:#4338CA;color:#fff;padding:26px 24px;display:flex;align-items:center;justify-content:center;gap:12px;font-size:21px;font-weight:700;letter-spacing:-.02em;word-break:keep-all;text-align:center}
+.dj-hae379 i{background:#fff;color:#4338CA}
+.dj-hae379 em{font-style:normal;font-weight:800;color:#FFB020}
+.dj-hwkc950{font-size:30px;font-weight:800;letter-spacing:-.02em;margin:0 0 20px}
+.dj-hwv0bf2{font-size:17px;line-height:1.85;color:rgba(255,255,255,.82);margin:0;word-break:keep-all}
+.dj-hwv0bf2 b{color:#fff}
+.dj-hone3c8{display:block;font-size:60px;font-weight:200;letter-spacing:-.04em;line-height:1;color:#fff}
+.dj-hoe7a6 h3{font-size:34px;font-weight:800;line-height:1.35;letter-spacing:-.03em;margin:0;word-break:keep-all}
+.dj-hoe7a6 h3 em{font-style:normal;color:#FFB020}
+.dj-htw0b45{padding:80px 32px 96px;text-align:center}
+.dj-hsfe7b{font-size:20px;line-height:1.75;color:#333;margin:0 0 30px;word-break:keep-all}
+.dj-hsfe7b b{color:#111;font-weight:800}
+.dj-hsfe7b em{font-style:normal;background:#EEEDFB;color:#4338CA;font-weight:800;padding:0 6px;border-radius:6px}
+.dj-hs0580{margin:0 0 48px}
+.dj-hs0580 span{display:block;font-size:17px;color:#767676;margin-bottom:8px}
+.dj-hs0580 b{display:block;font-size:30px;font-weight:800;letter-spacing:-.03em;color:#111;word-break:keep-all}
+.dj-hs0580 b em{font-style:normal;color:#4338CA}
+.dj-ht89f4{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;max-width:960px;margin:0 auto}
+.dj-htcb611{display:flex;flex-direction:column;align-items:center}
+.dj-htf0e0d{display:block;width:100%;aspect-ratio:4/3;border-radius:18px;overflow:hidden;background:#F0F0F6}
+.dj-htf0e0d img{width:100%;height:100%;object-fit:cover;display:block}
+.dj-hts8428{display:block;width:2px;height:22px;background:#C9C9D6;margin:14px 0 10px}
+.dj-htkedf9{display:block;font-size:12.5px;font-weight:800;letter-spacing:.16em;color:#4338CA;text-transform:uppercase;margin-bottom:8px}
+.dj-htcb611 b{font-size:18px;font-weight:800;line-height:1.45;letter-spacing:-.02em;color:#111;word-break:keep-all}
+.dj-hsb6b7{display:flex;align-items:flex-start;justify-content:center;gap:12px;max-width:760px;margin:44px auto 0;font-size:16px;line-height:1.8;color:#444;text-align:left;word-break:keep-all}
+.dj-hsb6b7 i{margin-top:3px}
+.dj-hsb6b7 b{color:#111}
+@media(max-width:1100px){
+.dj-hs0c13{min-height:440px}
+.dj-hs0c13 h2{font-size:38px}
+.dj-ha195f{font-size:28px}
+.dj-hoe7a6 h3{font-size:28px}
+}
+@media(max-width:767px){
+.dj-hs0c13{min-height:360px}
+.dj-hw54b8{min-height:300px}
+.dj-hoe7a6{min-height:340px}
+.dj-hs0c13::after,.dj-hw54b8::after,.dj-hoe7a6::after{background:linear-gradient(180deg,rgba(10,10,18,.7),rgba(10,10,18,.85))}
+.dj-hs0c13 h2{font-size:28px}
+.dj-hrc370{margin:20px 0}
+.dj-ha195f{font-size:22px}
+.dj-hc4e7a{padding:44px 18px 32px}
+.dj-hch8eff{font-size:19px}
+.dj-hcd4cb{font-size:14.5px;padding:14px 16px;gap:10px}
+.dj-hcd4cb i,.dj-hae379 i,.dj-hsb6b7 i{flex-basis:22px;width:22px;height:22px}
+.dj-hae379{font-size:16px;padding:18px 16px;gap:8px}
+.dj-hwkc950{font-size:24px}
+.dj-hwv0bf2{font-size:15px}
+.dj-hwv0bf2 br{display:none}
+.dj-hone3c8{font-size:44px}
+.dj-hoe7a6 h3{font-size:22px}
+.dj-htw0b45{padding:48px 18px 56px}
+.dj-hsfe7b{font-size:16px}
+.dj-hs0580 b{font-size:22px}
+.dj-ht89f4{grid-template-columns:1fr;gap:18px;max-width:360px}
+.dj-htcb611 b{font-size:16px}
+.dj-hsb6b7{font-size:14.5px;margin-top:28px}
+}
