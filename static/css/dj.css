@@ -375,7 +375,7 @@ body{color:#111}
 .dj-scb47a a:hover .dj-sg2ce9{background:#4338CA;border-color:#4338CA;color:#fff;transform:translateX(3px)}
 /* ===== 메인: 숫자로 보는 대전지사 (다크 밴드 + 상승 라인 차트 + 카운트업) ===== */
 .st{position:relative;overflow:hidden;color:#fff;padding:92px 0 100px;min-height:440px;background:linear-gradient(rgba(255,255,255,.055) 1px,transparent 1px) 0 0/72px 72px,linear-gradient(90deg,rgba(255,255,255,.055) 1px,transparent 1px) 0 0/72px 72px #141416}
-.st::before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(20,20,22,.94) 0%,rgba(20,20,22,.72) 42%,rgba(20,20,22,.05) 78%);z-index:1;pointer-events:none}
+.st::before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(20,20,22,.96) 0%,rgba(20,20,22,.9) 48%,rgba(20,20,22,.55) 64%,rgba(20,20,22,0) 82%);z-index:1;pointer-events:none}
 .st .wrap{position:relative;z-index:2}
 .dj-sif534{max-width:760px}
 .dj-se5988{font-size:12.5px;font-weight:800;letter-spacing:.18em;color:#FFB020;margin:0 0 22px;text-transform:uppercase}
@@ -393,7 +393,7 @@ body{color:#111}
 .dj-sb88ae svg{width:15px;height:15px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
 .dj-sl0f9c{font-size:14px;font-weight:700;color:rgba(255,255,255,.7);text-decoration:none}
 .dj-sl0f9c:hover{color:#fff}
-.dj-sc5e29{position:absolute;left:0;right:0;bottom:0;width:100%;height:100%;z-index:1;pointer-events:none}
+.dj-sc5e29{position:absolute;left:0;right:0;bottom:0;width:100%;height:100%;z-index:0;pointer-events:none}
 .dj-sp800f{stroke-dasharray:2600;stroke-dashoffset:2600;transition:stroke-dashoffset 2.8s cubic-bezier(.4,0,.2,1) .15s;filter:drop-shadow(0 0 8px rgba(255,255,255,.35))}
 .st.run .dj-sp800f{stroke-dashoffset:0}
 .dj-sa8edf{opacity:0;transition:opacity 1.2s ease 1.6s}
@@ -964,7 +964,8 @@ body{color:#111}
 .dj-sr4dc2{font-size:20px;line-height:1.55}
 .dj-sn9166{font-size:24px}
 .dj-su6179{font-size:20px}
-.dj-sc5e29{opacity:.55}
+.dj-sc5e29{opacity:.7}
+.st::before{background:linear-gradient(180deg,rgba(20,20,22,.92) 0%,rgba(20,20,22,.86) 60%,rgba(20,20,22,.35) 100%)}
 .dj-sa8532{gap:14px;margin-top:22px}
 .dj-hrfcd0{padding-bottom:64px}
 .dj-rh2674{margin-bottom:26px}
