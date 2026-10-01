@@ -1278,15 +1278,13 @@ body{color:#111}
 .dj-ci313a li:nth-child(odd){background:#010001}
 .dj-ci313a li:nth-child(even){background:#111}
 .dj-ci313a p{margin:0}
-.dj-cid323{position:relative;display:flex;align-items:center;justify-content:center;width:137px;height:137px}
-.dj-cid323::after{content:"";position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);border:1px solid #fff}
-.dj-cic5a31::after{width:137px;height:137px;border-radius:50%}
-.dj-cir2dab::after{width:116px;height:116px;transform:translate(-50%,-50%) rotate(45deg)}
-.dj-cis388c::after{width:129px;height:129px}
-.dj-cid323 svg{width:41px;height:41px;fill:none;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;overflow:visible}
-.dj-cic5a31 svg{animation:cpRotate 3s infinite ease-in-out}
-.dj-cir2dab svg{animation:cpBob 2.5s infinite ease-in-out}
-.dj-cis388c svg{animation:cpPulse 1.5s infinite}
+.dj-cid323{position:relative;display:flex;align-items:center;justify-content:center;width:140px;height:140px}
+.dj-cf6365{position:absolute;inset:0;width:100%;height:100%;fill:none;stroke:#fff;stroke-width:1;overflow:visible}
+.dj-cf6365 *{vector-effect:non-scaling-stroke}
+.dj-cis36c7{position:relative;width:41px;height:41px;fill:none;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;overflow:visible}
+.dj-ci313a li:nth-child(3n+1) .dj-cis36c7{animation:cpRotate 3s infinite ease-in-out}
+.dj-ci313a li:nth-child(3n+2) .dj-cis36c7{animation:cpBob 2.5s infinite ease-in-out}
+.dj-ci313a li:nth-child(3n) .dj-cis36c7{animation:cpPulse 1.5s infinite}
 @keyframes cpRotate{0%{transform:rotateY(0)}50%{transform:rotateY(180deg)}100%{transform:rotateY(360deg)}}
 @keyframes cpBob{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
 @keyframes cpPulse{0%{transform:scale(.9);opacity:.7}50%{transform:scale(1);opacity:1}100%{transform:scale(.9);opacity:.7}}
@@ -1311,7 +1309,7 @@ body{color:#111}
 .dj-cvl0649.active .dj-cvi065f{opacity:1}
 .dj-cs0c23{background:#121212}
 .dj-ctf4f3{position:relative;padding:clamp(35px,12vw,120px) 0 clamp(10px,8vw,114px);overflow:hidden}
-.dj-ctb3fa0{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center right}
+.dj-ctb3fa0{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 42%}
 .dj-ctf4f3::before{content:"";position:absolute;inset:0;background:rgba(0,0,0,.6);z-index:1}
 .dj-ctf4f3 .wrap{position:relative;z-index:2}
 .dj-ctd5d0 .dj-cl036d{width:47%}
@@ -1325,10 +1323,8 @@ body{color:#111}
 @keyframes cpMarquee{to{transform:translateX(-50%)}}
 @media(max-width:1100px){
 .dj-cid323{width:110px;height:110px}
-.dj-cic5a31::after{width:110px;height:110px}
-.dj-cir2dab::after{width:85px;height:85px}
-.dj-cis388c::after{width:95px;height:95px}
-.dj-cid323 svg{width:30px;height:30px}
+.dj-cis36c7{width:30px;height:30px}
+.dj-ci313a li{font-size:clamp(16px,2.6vw,30px)}
 .dj-ct57b5 p{background-image:linear-gradient(92deg,#4338CA,#FFB020)}
 }
 @media(max-width:767px){
@@ -1339,24 +1335,22 @@ body{color:#111}
 .dj-cwc7a9{right:4vw;top:clamp(20px,10vw,60px)}
 .dj-cs84e1{font-size:clamp(18px,4vw,30px)}
 .dj-cb193b{max-width:calc(100% - 44px)}
-.dj-cid323{width:90px;height:90px}
-.dj-cic5a31::after{width:90px;height:90px}
-.dj-cir2dab::after{width:70px;height:70px}
-.dj-cis388c::after{width:85px;height:85px}
-.dj-cid323 svg{width:25px;height:25px}
+.dj-ci313a{display:grid;grid-template-columns:1fr 1fr}
+.dj-ci313a li{height:auto;min-height:0;padding:40px 10px 36px;gap:26px;font-size:19px}
+.dj-ci313a li:last-child{grid-column:1/-1}
+.dj-cid323{width:96px;height:96px}
+.dj-cis36c7{width:28px;height:28px}
 .dj-cvi065f{width:44px;height:44px}
 }
 @media(max-width:489px){
-.dj-cid323{width:70px;height:70px}
-.dj-cic5a31::after{width:70px;height:70px}
-.dj-cir2dab::after{width:55px;height:55px}
-.dj-cis388c::after{width:65px;height:65px}
-.dj-cid323 svg{width:20px;height:20px}
+.dj-ci313a li{padding:32px 8px 28px;gap:20px;font-size:17px}
+.dj-cid323{width:84px;height:84px}
+.dj-cis36c7{width:24px;height:24px}
 }
 @media(prefers-reduced-motion:reduce){
 .dj-caedf0,.dj-ct6881 span,.dj-ca32bf{opacity:1;transform:none;transition:none}
 .dj-cs84e1{opacity:1}
-.dj-ctie49c,.dj-cid323 svg,.dj-ct57b5{animation:none}
+.dj-ctie49c,.dj-cis36c7,.dj-ct57b5{animation:none}
 }
 
 /* 회사소개: 성공적인 가치 아래 포트폴리오 2줄 롤링 (메인 Our Work 스타일 재사용) */
