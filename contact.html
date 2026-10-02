@@ -19,7 +19,7 @@
 <link rel="stylesheet" href="static/css/core.css?v=d23503d7">
 
 <link rel="icon" href="static/img/favicon.ico">
-<link rel="stylesheet" href="static/css/dj.css?v=1c82343a">
+<link rel="stylesheet" href="static/css/dj.css?v=73dc5872">
 <link rel="canonical" href="https://daejeondesign.co.kr/contact.html">
 <meta property="og:url" content="https://daejeondesign.co.kr/contact.html">
 <meta name="keywords" content="대전 디자인 문의, 대전 인쇄 견적, 카탈로그 제작 문의, 브로슈어 제작 견적, 대전 홍보물 제작">
@@ -181,6 +181,19 @@
             <p class="dj-cfleef4">참고 자료 첨부 <small>파일당 10MB 이하, 4개까지</small></p>
             <div id="dj-fe84c"></div>
             <label id="dj-f186c" class="dj-cfbf6be">파일 선택<input type="file" id="fileInput" hidden multiple></label>
+            <div class="dj-cfddfd dj-cr03cb">
+                <label class="dj-cfl6657">어떤 경로로 퍼스트디자인을 찾아주셨나요? <span class="dj-cr02ff">*</span></label>
+                <div class="dj-crg8b06" id="dj-r07f5">
+                    <label class="dj-cr74fb"><input type="radio" name="referral" value="네이버 블로그" required><span>네이버 블로그</span></label>
+                    <label class="dj-cr74fb"><input type="radio" name="referral" value="네이버 카페"><span>네이버 카페</span></label>
+                    <label class="dj-cr74fb"><input type="radio" name="referral" value="언론 (보도기사)"><span>언론 (보도기사)</span></label>
+                    <label class="dj-cr74fb"><input type="radio" name="referral" value="인스타그램"><span>인스타그램</span></label>
+                    <label class="dj-cr74fb"><input type="radio" name="referral" value="AI 추천"><span>AI 추천</span></label>
+                    <label class="dj-cr74fb"><input type="radio" name="referral" value="티스토리"><span>티스토리</span></label>
+                    <label class="dj-cr74fb"><input type="radio" name="referral" value="기타"><span>기타</span></label>
+                </div>
+                <input type="text" name="referral_other" id="dj-r59e6" class="dj-cro36c2" placeholder="기타 경로를 적어주세요 (예: 지인 소개, 검색광고)" hidden>
+            </div>
             <div class="ct-privacy">
                 <label class="dj-cpccde3"><input type="checkbox" id="dj-p8982" name="privacy_agree" required><span><b>[필수]</b> 개인정보 수집 · 이용에 동의합니다.</span></label>
                 <details class="dj-cpd6d07"><summary>수집 항목 및 이용 목적 보기</summary><div><p><b>수집 항목</b> : 회사명·기관명, 담당자 성함, 휴대전화, 이메일, 요청 사항 및 첨부 파일</p><p><b>이용 목적</b> : 문의 접수 확인 및 상담 · 견적 안내</p><p><b>보유 기간</b> : 상담 종료 후 3년 (관련 법령에 따름)</p><p class="dj-cpnb86f">동의를 거부하실 수 있으나, 이 경우 상담 접수가 제한됩니다.</p></div></details>
@@ -190,6 +203,19 @@
         </fieldset>
     </form>
 </div></section>
+<script>
+(function () {
+    // referral: show the free-text input only when "기타" is chosen
+    var group = document.getElementById('dj-r07f5'), other = document.getElementById('dj-r59e6');
+    if (!group || !other) return;
+    group.addEventListener('change', function (e) {
+        var isOther = e.target && e.target.value === '기타';
+        other.hidden = !isOther;
+        other.required = isOther;
+        if (isOther) other.focus(); else other.value = '';
+    });
+})();
+</script>
 
 <section class="dj-cv00dd"><div class="wrap dj-cvi3fc6">
     <div><p class="eyebrow">오시는 길</p><h2 class="sec-t sec-t-sm">퍼스트디자인 대전지사</h2></div>
@@ -286,7 +312,7 @@
         [['회사/기관명', val('company')], ['담당자', val('manager')], ['연락처', val('phone')],
          ['이메일', val('email')], ['문의 분야', checkedVal('service')], ['프로젝트 유형', checkedVal('project_type')],
          ['예산', val('budget')], ['기한', val('deadline')], ['규격/쪽수', val('size')],
-         ['쪽수', val('pages')], ['수량', val('quantity')], ['문의 내용', val('message')]]
+         ['쪽수', val('pages')], ['수량', val('quantity')], ['문의 내용', val('message')], ['유입 경로', checkedVal('referral') + (val('referral_other') ? ' - ' + val('referral_other') : '')]]
         .forEach(function(s){ if(s[1]) lines.push(s[0] + ' : ' + s[1]); });
 
         function showResult(ok){
